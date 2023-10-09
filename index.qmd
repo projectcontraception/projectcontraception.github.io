@@ -2,7 +2,7 @@
 title: "About the project"
 about:
   id: me
-  template: broadside
+  template: trestles
   image: img/contra_image.png
   image-width: 20em
   image-shape: round
@@ -10,11 +10,23 @@ about:
 
 :::{#me}
 
-## Goals 1
+## Project goal 
+
+[...]
 
 ## Subprojects
 
+Our project consits of three subprojects. 
+
+Our [first subproject](https://www.gesis.org/home) is largely descriptive and aims at  (1) comparing the development of hormonal and non-hormonal contraception use of women of across three birth cohorts (1971-73, 1981-83, 1991-93), and (2) analysing the determinants of hormonal and non-hormonal contraception and their change over time.
+
+Our second subproject is of a methodological nature. 
+Within this project, we develop a formative multidimensional index to measure risks, costs and benefits of contraceptive choices. 
+The resulting measure gives a score that relates the benefits of a contraceptive method to its costs and risks. 
+
+In our third subproject we study within-couple power dynamics and their relationship to and the distribution of fertility work within couples.
 
 :::
-
-Thanks for checking out our web site!
+<!--
+Thanks for checking out our website!
+-->

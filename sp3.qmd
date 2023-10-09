@@ -2,6 +2,26 @@
 title: "Subproject 3"
 ---
 
-## Description
+## Within-couple power dynamics, (gender ideology), and the distribution of fertility work: Evidence from Germany
 
+*Authored by Katrin Firl, Theresa Nutz, and Nora Müller*
 
+Preventing undesired pregnancies in different-sex relationships is a *relationship task* that both female and male partners want to achieve. 
+However, most available modern contraceptives are female-body based, and women are predominantly responsible for birth control.
+Because (female) contraceptive responsibility can be connected to expenditures like financial costs, side effects, interference with body functions, or time costs, contraceptive responsibility has been termed unpaid 'fertility work'.
+'Fertility work' can add to other unpaid responsibilities like housework and childcare predominantly performed by women. 
+Hence, contraceptive responsibility is included as a dimension of unpaid labor in the context of the 'gendered division of labor'. 
+
+We assume that different contraceptive methods are connected to different amounts of fertility work that an individual or couple needs to perform. 
+Usually, female-body-based methods are associated with more expenditures and side effects than male-body-based methods. 
+Our first research aim and contribution to the contraceptive literature is to categorize the different contraceptive methods within a metric scale of the amount of fertility work that needs to be performed. 
+
+How unpaid responsibilities are distributed within heterosexual couples is among others explained by within-couple resource allocations. 
+In a second step, we will apply our 'fertility responsibility scale' to answer the research question of whether relative and absolute resources can be associated with the amount of fertility work women and men in heterosexual relationships perform. 
+Following resource theory, we hypothesize that the partner with greater (relative or absolute) resources aims to minimize her or his own participation in unpaid labor, in our case, fertility work. 
+We operationalize resources with income, level of education, and occupational status. 
+
+We use wave 1 of FReDA and analyze the cross-sectional relationship between women’s and men’s resources and the distribution of fertility work. 
+Subsequently, we employ a fixed-effects approach, exploiting 14 waves of the German Family Panel ‘pairfam’.
+
+Our study extends prior research on the intersection of within-couple decision-making processes and fertility by pointing to the largely neglected relevance of contraceptive behavior for gender inequality. 

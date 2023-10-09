@@ -2,3 +2,54 @@
 title: "Our Team"
 ---
 
+## Katrin Firl
+
+:::: {layout="[ 40, 60 ]"}
+
+::: {#first-column}
+![](img/katrin.jpg)
+:::
+
+::: {#second-column}
+Until 2021 Double Master's degree in "Social Inequality and Demography" at the University of Cologne and the University of Groningen
+
+* Methods of Empirical Social Research
+* Social Inequalities
+* Family Sociology
+* Demography and Methods of Demography
+
+Since 2022 research assistant in the SDM department in the "Retrad" project.
+:::
+
+::::
+
+
+## Nora Müller
+
+:::: {layout="[ 40, 60 ]"}
+
+::: {#first-column}
+![](img/pink6.png)
+:::
+
+::: {#second-column}
+I am an analytical-empirical social scientist. I hold a PhD and an MA in Sociology. My research is on social inequality with a special focus on wealth inequality and family-related topics. I work as a senior researcher at [GESIS - Leibniz Institute for the Social Sciences](https://www.gesis.org/home) in Mannheim, Germany.
+:::
+
+::::
+
+
+## Theresa Nutz
+
+:::: {layout="[ 40, 60 ]"}
+
+::: {#first-column}
+![](img/theresa.jpg)
+:::
+
+::: {#second-column}
+Theresa Nutz studied Sociology (B.A. and M.A.) at the University of Mannheim. From June 2017 until March 2021 she was part of the research group "Accumulation of Personal Wealth in Couples: Individual Resources and Gender Inequalities in Intimate Relationships (MyWealth)" at the Humboldt University of Berlin. She joined the team Family Surveys (DRS) in March 2021.
+
+:::
+
+::::
