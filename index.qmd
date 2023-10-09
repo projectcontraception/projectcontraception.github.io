@@ -1,19 +1,20 @@
 ---
-title: "About Me"
+title: "About the project"
 about:
   id: me
   template: broadside
-  image: img/profile.png
+  image: img/contra_image.png
+  image-width: 20em
+  image-shape: round
 ---
 
 :::{#me}
 
 ## Goals
 
-## Education
+## Subprojects
 
-## Experience
 
 :::
 
-Thanks for checking out my web site!
+Thanks for checking out our web site!
