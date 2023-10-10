@@ -18,13 +18,13 @@ about:
 
 Our project consist of three sub-projects. 
 
-Our first sub-project "Oral Contraception over Time" [OCOT](https://projectcontraception.github.io/sp1.html) is largely descriptive and aims at  (1) comparing the development of hormonal and non-hormonal contraception use of women of across three birth cohorts (1971-73, 1981-83, 1991-93), and (2) analysing the determinants of hormonal and non-hormonal contraception and their change over time.
+Our first sub-project "Is the Pill Outdated? Development and Predictors of Hormonal Contraception in Germany", or short [PillOut](https://projectcontraception.github.io/sp1.html), is largely descriptive and aims at  (1) comparing the development of hormonal and non-hormonal contraception use of women of across three birth cohorts (1971-73, 1981-83, 1991-93), and (2) analysing the determinants of hormonal and non-hormonal contraception and their change over time.
 
 Our second sub-project ["ContraScore"](https://projectcontraception.github.io/sp2.html) is of a methodological nature. 
 Within this project, we develop a formative multidimensional index to measure risks, costs and benefits of contraceptive choices. 
 The resulting measure gives a score that relates the benefits of a contraceptive method to its costs and risks. 
 
-In our [third subproject](https://projectcontraception.github.io/sp3.html) we study within-couple power dynamics and their relationship to and the distribution of fertility work within couples.
+In our third subproject "Within-couple power dynamics, and the distribution of fertility work: Evidence from Germany", or short [FertilityWork](https://projectcontraception.github.io/sp3.html), we study within-couple power dynamics and their relationship to and the distribution of fertility work within couples.
 
 :::
 <!--

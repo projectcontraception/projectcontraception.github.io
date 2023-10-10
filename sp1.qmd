@@ -1,8 +1,8 @@
 ---
-title: "OCOT"
+title: "PillOut"
 ---
 
-## Oral Contraception over Time
+## Is the Pill Outdated? Development and Predictors of Hormonal Contraception in Germany
 
 *Authored by Theresa Nutz and Nora Müller*
 
