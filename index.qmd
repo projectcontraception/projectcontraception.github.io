@@ -14,7 +14,7 @@ about:
 
 [...]
 
-## Subprojects
+## Our Subprojects
 
 Our project consist of three subprojects. 
 
