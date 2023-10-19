@@ -12,7 +12,12 @@ about:
 
 ## Project goal 
 
-[...]
+In this project we analyse contraceptual behavior and contraceptual decisions from a sociological perspective. 
+We argue that contraceptual responsibility should be understood as a form of unpiad labor, adding to other unpaid responsibilities like housework and childcare predominantly performed by women.
+Contraceptive behavior is therefore a highly relevant study object for social inequality research. 
+On the one hand, it constitutes an inequality dimension itself, and on the other hand, it should be strongly correlated with other inequality dimensions.
+
+The aim of our project is to show that, in addition to the gender pay gap and the gender care gap, there exists also a gender contraception gap and to analyze how the gender contraception gap is related to other social inequality dimensions.
 
 ## Our Subprojects
 
