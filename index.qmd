@@ -13,17 +13,15 @@ about:
 ## Project goal 
 
 In this project we analyse contraceptual behavior and contraceptual decisions from a sociological perspective. 
-We argue that contraceptual responsibility should be understood as a form of unpiad labor, adding to other unpaid responsibilities like housework and childcare predominantly performed by women.
+We argue that contraceptual responsibility -- mostly carried out by women -- should be understood as a form of unpaid labor, adding to other unpaid responsibilities like housework and childcare predominantly performed by women.
 Contraceptive behavior is therefore a highly relevant study object for social inequality research. 
-On the one hand, it constitutes an inequality dimension itself, and on the other hand, it should be strongly correlated with other inequality dimensions.
+The aim of our project is to establish contraceptive responsibility as a dimension of social inequality and to show how it is related to other dimension of social inequality.
 
-The aim of our project is to show that, in addition to the gender pay gap and the gender care gap, there exists also a gender contraception gap and to analyze how the gender contraception gap is related to other social inequality dimensions.
+## Our subprojects
 
-## Our Subprojects
+Our project consists of three subprojects. 
 
-Our project consist of three subprojects. 
-
-Our first subproject "Is the Pill Outdated? Development and Predictors of Hormonal Contraception in Germany", or short [PillOut](https://projectcontraception.github.io/sp1.html), is largely descriptive and aims at  (1) comparing the development of hormonal and non-hormonal contraception use of women of across three birth cohorts (1971-73, 1981-83, 1991-93), and (2) analysing the determinants of hormonal and non-hormonal contraception and their change over time.
+Our first subproject "Is the pill outdated? Development and predictors of hormonal contraception in Germany", or short [PillOut](https://projectcontraception.github.io/sp1.html), is largely descriptive and aims at  (1) comparing the development of hormonal and non-hormonal contraception use of women of across three birth cohorts (1971-73, 1981-83, 1991-93), and (2) analysing the determinants of hormonal and non-hormonal contraception and their change over time.
 
 Our second subproject ["ContraScore"](https://projectcontraception.github.io/sp2.html) is of a methodological nature. 
 Within this project, we develop a formative multidimensional index to measure risks, costs and benefits of contraceptive choices. 
