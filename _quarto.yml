@@ -11,6 +11,7 @@ website:
       - sp1.qmd
       - sp2.qmd
       - sp3.qmd
+      - posts.qmd
       - team.qmd
     #tools:
      # - icon: twitter

@@ -21,6 +21,20 @@
     "text": "Our project consists of three subprojects.\nOur first subproject “Is the pill outdated? Development and predictors of hormonal contraception in Germany”, or short PillOut, is largely descriptive and aims at (1) comparing the development of hormonal and non-hormonal contraception use of women of across three birth cohorts (1971-73, 1981-83, 1991-93), and (2) analysing the determinants of hormonal and non-hormonal contraception and their change over time.\nOur second subproject “ContraScore” is of a methodological nature. Within this project, we develop a formative multidimensional index to measure risks, costs and benefits of contraceptive choices. The resulting measure gives a score that relates the benefits of a contraceptive method to its costs and risks.\nIn our third subproject “Within-couple power dynamics, and the distribution of fertility work: Evidence from Germany”, or short FertilityWork, we study within-couple power dynamics and their relationship to and the distribution of fertility work within couples."
   },
   {
+    "objectID": "posts/2023-11-14-PILLOUT_pill_decrease/index.html",
+    "href": "posts/2023-11-14-PILLOUT_pill_decrease/index.html",
+    "title": "The decreasing use of hormonal contraception in Germany",
+    "section": "",
+    "text": "In the landscape of reproductive health, a notable transformation has been unfolding in Germany over the past decades. The pill, once perceived as the pinnacle of hormonal contraception, has experienced a significant decline in popularity. Our latest research sheds light on a remarkable shift in the contraceptive choices of women in Germany, highlighting a growing preference for non-hormonal contraception methods.\n\n\n\nCitationBibTeX citation:@online{nutz2023,\n  author = {Nutz, Theresa},\n  title = {The Decreasing Use of Hormonal Contraception in {Germany}},\n  date = {2023-11-14},\n  url = {https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nNutz, Theresa. 2023. “The Decreasing Use of Hormonal Contraception\nin Germany.” November 14, 2023. https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
+    "section": "",
+    "text": "The decreasing use of hormonal contraception in Germany\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nTheresa Nutz\n\n\nNov 14, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "projects.html#project-2",
     "href": "projects.html#project-2",
     "title": "Projects",

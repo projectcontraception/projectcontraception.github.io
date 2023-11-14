@@ -1,0 +1,20 @@
+---
+title: "The decreasing use of hormonal contraception in Germany"
+description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Theresa Nutz
+    url: https://theresanutz.github.io/ 
+    orcid: 0000-0002-5803-6810
+    affiliation: PostDoc at GESIS
+    affiliation-url: https://www.gesis.org/ 
+date: 11-14-2023
+categories: [Quarto, R, MEDS] # self-defined categories
+citation: 
+  url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+In the landscape of reproductive health, a notable transformation has been unfolding in Germany over the past decades. 
+The pill, once perceived as the pinnacle of hormonal contraception, has experienced a significant decline in popularity. 
+Our latest research sheds light on a remarkable shift in the contraceptive choices of women in Germany, highlighting a growing preference for non-hormonal contraception methods.
+
