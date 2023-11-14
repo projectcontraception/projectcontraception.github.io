@@ -8,9 +8,10 @@ author:
     affiliation: PostDoc at GESIS
     affiliation-url: https://www.gesis.org/ 
 date: 11-14-2023
-categories: [Quarto, R, MEDS] # self-defined categories
+categories: [PillOut] # self-defined categories
 citation: 
-  url: https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/ 
+  url: https://https://projectcontraception.github.io/posts/2023-11-14-PILLOUT_pill_decrease/ 
+image: preview-image.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
