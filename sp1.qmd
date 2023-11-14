@@ -2,7 +2,7 @@
 title: "PillOut"
 ---
 
-## Is the Pill Outdated? Development and Predictors of Hormonal Contraception in Germany
+## Generational trends in hormonal contraceptive use: A machine learning approach
 
 *Authored by Theresa Nutz and Nora Müller*
 
