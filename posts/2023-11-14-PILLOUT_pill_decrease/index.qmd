@@ -19,3 +19,7 @@ In the landscape of reproductive health, a notable transformation has been unfol
 The pill, once perceived as the pinnacle of hormonal contraception, has experienced a significant decline in popularity. 
 Our latest research sheds light on a remarkable shift in the contraceptive choices of women in Germany, highlighting a growing preference for non-hormonal contraception methods.
 
+Observing women’s contraceptive behavior in data from the German Family Panel (pairfam) from 2008 to 2021, we witness a substantial decrease in the use of hormonal contraception. 
+This decline is primarily attributed to the diminishing dominance of the pill as the primary method of choice. 
+In 2008, almost 80% of women relied on hormonal contraception for managing their reproductive health. 
+By 2021, this number has plummeted to 45%. Concurrently, the proportion of women using non-hormonal contraception more than doubled, rising from 20% to nearly 55%.
