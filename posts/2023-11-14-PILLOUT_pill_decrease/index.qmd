@@ -1,6 +1,6 @@
 ---
-title: "The decreasing use of hormonal contraception in Germany"
-description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+title: "Decreasing use of hormonal contraception in Germany"
+description: "The proportion of women using non-hormonal contraception has more than doubled in Germany in the 2010s."
 author:
   - name: Theresa Nutz
     url: https://theresanutz.github.io/ 
@@ -11,7 +11,7 @@ date: 11-14-2023
 categories: [PillOut] # self-defined categories
 citation: 
   url: https://https://projectcontraception.github.io/posts/2023-11-14-PILLOUT_pill_decrease/ 
-image: preview-image.png
+image: pill.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
@@ -19,3 +19,11 @@ In the landscape of reproductive health, a notable transformation has been unfol
 The pill, once perceived as the pinnacle of hormonal contraception, has experienced a significant decline in popularity. 
 Our latest research sheds light on a remarkable shift in the contraceptive choices of women in Germany, highlighting a growing preference for non-hormonal contraception methods.
 
+![](web1.png)
+
+Observing women’s contraceptive behavior in data from the German Family Panel (pairfam) from 2008 to 2021, we witness a substantial decrease in the use of hormonal contraception. 
+This decline is primarily attributed to the diminishing dominance of the pill as the primary method of choice. 
+In 2008, almost 80% of women relied on hormonal contraception for managing their reproductive health. 
+By 2021, this number has plummeted to 45%. Concurrently, the proportion of women using non-hormonal contraception more than doubled, rising from 20% to nearly 55%.
+
+![](web2.png)
