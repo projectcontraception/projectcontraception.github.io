@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Contraception Project - Manage multiple GitHub Accounts</title>
+<title>The Contraception Project - Manage Multiple GitHub Accounts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -116,14 +150,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#personal-account---the-default-config" id="toc-personal-account---the-default-config" class="nav-link active" data-scroll-target="#personal-account---the-default-config">Personal account, - the default config</a></li>
+  <li><a href="#work-account-1" id="toc-work-account-1" class="nav-link" data-scroll-target="#work-account-1">Work account-1</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Manage multiple GitHub Accounts</h1>
+<h1 class="title">Manage Multiple GitHub Accounts</h1>
 </div>
 
 
@@ -139,8 +180,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Follow these <a href="https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/">instructions:</a></p>
+<p>The need to manage multiple GitHub accounts on the same machine comes up at some point in time for most developers. Every single time I happen to change my Mac or need to Git push with a new work account, I end up surfing for the how to’s of something I have done over half a dozen times.</p>
+<p>My laziness in not documenting the process and inability to remember the steps makes me spent a decent amount of time getting the bits and pieces from all over the web and then somehow making it work.</p>
+<p>I’m sure there are many of you who have been there, done that and many more of you who are just waiting for the next time the same thing occurs (myself included!). This endeavor is meant to help us all out.</p>
+<ol type="1">
+<li>Generating the SSH keys Before generating an SSH key, we can check to see if we have any existing SSH keys: ls -al ~/.ssh This will list out all existing public and private key pairs, if any.</li>
+</ol>
+<p>If ~/.ssh/id_rsa is available, we can reuse it, or else we can first generate a key to the default ~/.ssh/id_rsa by running:</p>
+<p>ssh-keygen -t rsa When asked for the location to save the keys, accept the default location by pressing enter. A private key and public key ~/.ssh/id_rsa.pub will be created at the default ssh location ~/.ssh/.</p>
+<p>Let’s use this default key pair for our personal account.</p>
+<p>For the work accounts, we will create different SSH keys. The below code will generate the SSH keys, and saves the public key with the tag “email@work_mail.com” to ~/.ssh/id_rsa_work_user1.pub</p>
+<p>$ ssh-keygen -t rsa -C “email@work_mail.com” -f “id_rsa_work_user1” We have two different keys created:</p>
+<p>~/.ssh/id_rsa ~/.ssh/id_rsa_work_user1 2. Adding the new SSH key to the corresponding GitHub account We already have the SSH public keys ready, and we will ask our GitHub accounts to trust the keys we have created. This is to get rid of the need for typing in the username and password every time you make a Git push.</p>
+<p>Copy the public key pbcopy &lt; ~/.ssh/id_rsa.pub and then log in to your personal GitHub account:</p>
+<p>Go to Settings Select SSH and GPG keys from the menu to the left. Click on New SSH key, provide a suitable title, and paste the key in the box below Click Add key — and you’re done! For the work accounts, use the corresponding public keys (pbcopy &lt; ~/.ssh/id_rsa_work_user1.pub) and repeat the above steps in your GitHub work accounts. 3 . Registering the new SSH Keys with the ssh-agent To use the keys, we have to register them with the ssh-agent on our machine. Ensure ssh-agent is running using the command eval “$(ssh-agent -s)”. Add the keys to the ssh-agent like so:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>ssh<span class="sc">-</span>add <span class="sc">~</span><span class="er">/</span>.ssh<span class="sc">/</span>id_rsa</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>ssh<span class="sc">-</span>add <span class="sc">~</span><span class="er">/</span>.ssh<span class="sc">/</span>id_rsa_work_user1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Make the ssh-agent use the respective SSH keys for the different SSH Hosts.</p>
+<p>This is the crucial part, and we have two different approaches:</p>
+<p>Using the SSH configuration file (Step 4), and having only one active SSH key in the ssh-agent at a time (Step 5).</p>
+<ol start="4" type="1">
+<li>Creating the SSH config File Here we are actually adding the SSH configuration rules for different hosts, stating which identity file to use for which domain.</li>
+</ol>
+<p>The SSH config file will be available at ~/.ssh/config. Edit it if it exists, or else we can just create it.</p>
+<p>$ cd ~/.ssh/ $ touch config // Creates the file if not exists $ code config // Opens the file in VS code, use any editor Make configuration entries for the relevant GitHub accounts similar to the one below in your ~/.ssh/config file:</p>
+<section id="personal-account---the-default-config" class="level1">
+<h1>Personal account, - the default config</h1>
+<p>Host github.com HostName github.com User git IdentityFile ~/.ssh/id_rsa</p>
+</section>
+<section id="work-account-1" class="level1">
+<h1>Work account-1</h1>
+<p>Host github.com-work_user1<br>
+HostName github.com User git IdentityFile ~/.ssh/id_rsa_work_user1 “work_user1” is the GitHub user id for the work account.</p>
+<p>“github.com-work_user1” is a notation used to differentiate the multiple Git accounts. You can also use “work_user1.github.com” notation as well. Make sure you’re consistent with what hostname notation you use. This is relevant when you clone a repository or when you set the remote origin for a local repository</p>
+<p>The above configuration asks ssh-agent to:</p>
+<p>Use id_rsa as the key for any Git URL that uses <span class="citation" data-cites="github.com">@github.com</span> Use the id_rsa_work_user1 key for any Git URL that uses <span class="citation" data-cites="github.com-work_user1">@github.com-work_user1</span> 5. One active SSH key in the ssh-agent at a time This approach doesn’t require the SSH config rules. Rather we manually ensure that the ssh-agent has only the relevant key attached at the time of any Git operation.</p>
+<p>ssh-add -l will list all the SSH keys attached to the ssh-agent. Remove all of them and add the one key you are about to use.</p>
+<p>If it’s to a personal Git account that you are about to push:</p>
+<p>$ ssh-add -D //removes all ssh entries from the ssh-agent $ ssh-add ~/.ssh/id_rsa // Adds the relevant ssh key The ssh-agent now has the key mapped with the personal GitHub account, and we can do a Git push to the personal repository.</p>
+<p>To push to your work GitHub account-1, change the SSH key mapped with the ssh-agent by removing the existing key and adding the SSH key mapped with the GitHub work account.</p>
+<p>$ ssh-add -D $ ssh-add ~/.ssh/id_rsa_work_user1 The ssh-agent at present has the key mapped with the work Github account, and you can do a Git push to the work repository. This requires a bit of manual effort, though.</p>
+<p>Setting the git remote Url for the local repositories Once we have local Git repositories cloned /created, ensure the Git config user name and email is exactly what you want. GitHub identifies the author of any commit from the email id attached with the commit description.</p>
+<p>To list the config name and email in the local Git directory, do git config user.name and git config user.email. If it’s not found, update accordingly.</p>
+<p>git config user.name “User 1” // Updates git config user name git config user.email “user1@workMail.com” 6. While Cloning Repositories Note: step 7 will help, if we have the repository already available on local.</p>
+<p>Now that the configurations are in place, we can go ahead and clone the corresponding repositories. On cloning, make a note that we use the host names that we used in the SSH config.</p>
+<p>Repositories can be cloned using the clone command Git provides:</p>
+<p>git clone git@github.com:personal_account_name/repo_name.git The work repository will require a change to be made with this command:</p>
+<p>git clone git@github.com-work_user1:work_user1/repo_name.git This change is made depending on the host name defined in the SSH config. The string between @ and : should match what we have given in the SSH config file.</p>
+<ol start="7" type="1">
+<li>For Locally Existing Repositories If we have the repository already cloned:</li>
+</ol>
+<p>List the Git remote of the repository, git remote -v</p>
+<p>Check whether the URL matches our GitHub host to be used, or else update the remote origin URL.</p>
+<p>git remote set-url origin git@github.com-worker_user1:worker_user1/repo_name.git Ensure the string between @ and : matches the Host we have given in the SSH config.</p>
+<p>If you are creating a new repository on local:</p>
+<p>Initialize Git in the project folder git init.</p>
+<p>Create the new repository in the GitHub account and then add it as the Git remote to the local repository.</p>
+<p>git remote add origin git@github.com-work_user1:work_user1/repo_name.git Ensure the string between @ and : matches the Host we have given in the SSH config.</p>
+<p>Push the initial commit to the GitHub repository:</p>
+<p>git add . git commit -m “Initial commit” git push -u origin master We are done!</p>
+<p>Adding or updating the Git remote of the local Git directory with the proper host will take care of selecting the correct SSH key to verify our identity with GitHub. With all the above in place, our git operations should work seamlessly.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
