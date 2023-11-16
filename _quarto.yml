@@ -4,6 +4,7 @@ project:
   
 website:
   title: "The Contraception Project"
+  google-analytics: "G-NYKLQ2WX08"
   navbar:
     left:
       - href: index.qmd
@@ -21,6 +22,7 @@ website:
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
     left: "&copy; Copyright 2023, Nora Müller"
+  
 
 format:
   html:
