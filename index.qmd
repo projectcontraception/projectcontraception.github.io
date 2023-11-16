@@ -6,7 +6,9 @@ about:
   image: img/contra_image.png
   image-width: 20em
   image-shape: round
+  
 ---
+
 
 :::{#me}
 
