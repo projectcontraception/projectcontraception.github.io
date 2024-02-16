@@ -2,15 +2,18 @@
 title: "PillOut"
 ---
 
-## Generational trends in hormonal contraceptive use: A machine learning approach
+## Generational trends and predictors of hormonal contraceptive use in Germany: A machine learning approach
 
-*Authored by Theresa Nutz and Nora Müller*
+*Authored by Theresa Nutz, Nora Müller, and Hao-Ting Chan*
 
 The introduction of the contraceptive pill in the 1960s was a revolution in women's reproductive health. 
 For the first time, women had unprecedented control over their fertility, enabling them to plan their families and pursue professional careers. 
 However, in recent years, there has been a decline in the use of hormonal contraception among younger women, as evidenced by cross-sectional data. 
-This decline has coincided with increased public scrutiny of oral contraceptives, known as "pill scares," which have highlighted a range of potential health risks associated with their use.
-Our study makes two key contributions. First, we examine whether the decline in hormonal contraceptive use among women is consistent across different birth cohorts or exhibits generational variation. Second, we use machine learning methods to analyze a broad range of potential predictor variables of hormonal contraceptive use and compare their predictive power across three birth cohorts.
+This decline has coincided with increased public scrutiny of oral contraceptives, which have highlighted a range of potential health risks associated with their use. 
+Our study makes two key contributions. 
+First, we examine whether the decline in hormonal contraceptive use among women is consistent across different birth cohorts or exhibits generational variation. 
+Second, we use machine learning methods to analyze a broad range of potential predictor variables of hormonal contraceptive use and compare their predictive power across three birth cohorts. 
+We carry out our analyses with data from the Panel Analysis of Intimate Relationships and Family Dynamics (pairfam) for Germany, where hormonal contraception rates among women have been traditionally very high in international comparison.
 
 **Keywords**\
 *Contraceptive behavior; contraceptive responsibility; pairfam; regression trees; random forest.*

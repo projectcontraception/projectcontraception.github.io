@@ -2,16 +2,16 @@
 title: "ContraScore"
 ---
 
-## ContraScore - A Sociological Approach to Measure Risks, Costs and Benefits of Contraceptive Choices
+## ContraScore - A Sociological Approach to Measure Risks, Costs, Benefits and Potentials of Contraceptive Choices
 
 *Authored by Nora Müller, Katrin Firl, and Theresa Nutz*
 
-We develop a formative multidimensional index to measure risks, costs and benefits of contraceptive choices. 
-The resulting measure gives a score that relates the benefits of a contraceptive method to its costs and risks. 
-Costs, risks and benefits are themselves multiple dimensions, consisting of several sub-dimensions, which we theoretically weight. 
+We develop a formative multidimensional index to measure risks, costs, benefits, and potentials of contraceptive choices. 
+The resulting measure gives a score that relates the benefits and potentials of a contraceptive method to its costs and risks. 
+Costs, risks, benefits, and potentials are themselves multiple dimensions, consisting of several sub-dimensions, which we theoretically weight. 
 These weights can be individually adjusted depending on the research question of interest or depending on the individual situation of potential contraceptive users.
 Our index thus serves two purposes: 
 1) It can be applied as a dependent or independent variable in sociological research, and
 2) it can serve as an initial decision-making basis for choosing a suitable contraceptive.
-In this paper we describe the development of the ContraScore, we compare different contraceptive method based on their score and we present an interactive tool that allows for individual weighing of its different dimensions and sub-dimensions.
+In this paper we describe the development of the ContraScore, we compare different contraceptive methods based on their score and we present an interactive tool that allows for individual weighing of its different dimensions and sub-dimensions.
 
