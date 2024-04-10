@@ -6,14 +6,16 @@ title: "PillOut"
 
 *Authored by Theresa Nutz, Nora Müller, and Hao-Ting Chan*
 
-The introduction of the contraceptive pill in the 1960s was a revolution in women's reproductive health. 
-For the first time, women had unprecedented control over their fertility, enabling them to plan their families and pursue professional careers. 
-However, in recent years, there has been a decline in the use of hormonal contraception among younger women, as evidenced by cross-sectional data. 
-This decline has coincided with increased public scrutiny of oral contraceptives, which have highlighted a range of potential health risks associated with their use. 
-Our study makes two key contributions. 
-First, we examine whether the decline in hormonal contraceptive use among women is consistent across different birth cohorts or exhibits generational variation. 
-Second, we use machine learning methods to analyze a broad range of potential predictor variables of hormonal contraceptive use and compare their predictive power across three birth cohorts. 
+The introduction of the contraceptive pill in the 1960s revolutionized women's reproductive health by providing a convenient and effective method of contraception.
+This allowed women greater control over their reproductive choices, enabling them to plan families and pursue professional careers.
+However, in recent years, there has been a decline in the use of hormonal contraception among younger women, as evidenced by cross-sectional data.
+This decline has coincided with increased public scrutiny of oral contraceptives, which have highlighted a range of potential health risks associated with their use.
+Our study makes four key contributions.
+Applying multilevel mixed-effects logistic regression analyses, we first examine whether the decline in hormonal contraceptive use among women is consistent across different birth cohorts or exhibits generational variation.
+Using two different supervised machine learning models for classification problems, namely Random Forest and XGBoost, we second analyse how well a broad set of 25 potential independent variables can predict the use of hormonal contraception across three different birth cohorts.
+Third, we identify the key predictors among this set of 25 potential independent variables of hormonal contraceptive use and analyse how they change across cohort.
+Fourth, we interpret the prediction patterns, including non-linearities and two-way interactions and their differences across cohorts.
 We carry out our analyses with data from the Panel Analysis of Intimate Relationships and Family Dynamics (pairfam) for Germany, where hormonal contraception rates among women have been traditionally very high in international comparison.
 
 **Keywords**\
-*Contraceptive behavior; contraceptive responsibility; pairfam; regression trees; random forest.*
+*Contraceptive behavior; contraceptive responsibility; pairfam; random forest; xgboost.*
